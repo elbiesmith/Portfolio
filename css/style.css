@@ -1458,3 +1458,7 @@ footer .credits a {
 .iconify-blue {
   color: #007bff;
 }
+
+.skill-box {
+  min-height: 360px;
+}
