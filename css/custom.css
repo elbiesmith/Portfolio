@@ -4,3 +4,35 @@
     font-size: x-large;
     
 }
+
+.overlay-mf {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.overlay-mf {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 6.75%;
+    width: 100%;
+    opacity: .7;
+}
+
+.container-margin-top {
+    margin-top: 150px;
+}
+
+a {
+    color: #aaa9a9;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.blog-color {
+    color: #aaa9a9;
+}
+
+.img-pos {
+    background-position: center;
+}
