@@ -1077,18 +1077,18 @@
           </div>
         </div>
         <div class="row">
-          <!-- <div class="col-md-4">
-            <div class="card card-blog">
+          <div class="col-md-4">
+            <div id="blog1" class="card card-blog">
               <div class="card-img">
                 <a href="https://intrepidowlbear.com/how-to-setup-a-project-in-github"><img src="/img/github-post.png"
                     alt="" class="img-fluid"></a>
               </div>
               <div class="card-body">
-                <div class="card-category-box">
+                <!-- <div class="card-category-box">
                   <div class="card-category">
                     <h6 class="category">Coding</h6>
                   </div>
-                </div>
+                </div> -->
                 <h3 class="card-title"><a href="https://intrepidowlbear.com/how-to-setup-a-project-in-github">How to
                     publish to GitHub</a>
                 </h3>
@@ -1106,23 +1106,23 @@
                   </a>
                 </div>
                 <div class="post-date">
-                  <span class="bi bi-clock"></span> 5 min
+                  <span></span>
                 </div>
               </div>
             </div>
-          </div> -->
+          </div>
           <div class="col-md-4">
-            <div class="card card-blog">
+            <div id="blog2" class="card card-blog">
               <div class="card-img">
                 <a href="https://titan-mvcblog.herokuapp.com/BlogPosts/UrlFriendly/using-the-bootstrap-grid"><img
                     src="/img/post-2.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="card-body">
-                <div class="card-category-box">
+                <!-- <div class="card-category-box">
                   <div class="card-category">
                     <h6 class="category">Web Design</h6>
                   </div>
-                </div>
+                </div> -->
                 <h3 class="card-title"><a
                     href="https://titan-mvcblog.herokuapp.com/BlogPosts/UrlFriendly/using-the-bootstrap-grid">Using the
                     Bootstrap Grid</a>
@@ -1140,23 +1140,23 @@
                   </a>
                 </div>
                 <div class="post-date">
-                  <span class="bi bi-clock"></span> 5 min
+                  <span></span>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card card-blog">
+            <div id="blog3" class="card card-blog">
               <div class="card-img">
                 <a href="https://titan-mvcblog.herokuapp.com/BlogPosts/UrlFriendly/iterating-over-an-array"><img
                     src="/img/post-3.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="card-body">
-                <div class="card-category-box">
+                <!-- <div class="card-category-box">
                   <div class="card-category">
                     <h6 class="category">Javascript</h6>
                   </div>
-                </div>
+                </div> -->
                 <h3 class="card-title"><a
                     href="https://titan-mvcblog.herokuapp.com/BlogPosts/UrlFriendly/iterating-over-an-array">Iterating
                     over an array with
@@ -1177,7 +1177,7 @@
                   </a>
                 </div>
                 <div class="post-date">
-                  <span class="bi bi-clock"></span> 5 min
+                  <span></span>
                 </div>
               </div>
             </div>
@@ -1831,7 +1831,12 @@
     })
   </script>
 
-
+  <script src="/js/blogapi.js"></script>
+  <script>
+    RenderApiData("blog1", data[0]);
+    RenderApiData("blog2", data[1]);
+    RenderApiData("blog3", data[2]);
+  </script>
 
 
 </body>
