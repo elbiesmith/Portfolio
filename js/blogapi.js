@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('//titan-mvcblog.herokuapp.com/GetTopXPosts/3')
+    fetch('//intrepidowlbear.bsite.net/GetTopXPosts/3')
         .then(response => response.json())
         .then(function (data) {
             RenderApiData("blog1", data[0]);
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function RenderApiData(id, data) {
         //Establish the link out to the BlogPost Details...
-        let blogLink = `//titan-mvcblog.herokuapp.com/BlogPost/UrlFriendly/${data.slug}`;
+        let blogLink = `//intrepidowlbear.bsite.net/BlogPosts/UrlFriendly/${data.slug}`;
 
         //Work with the text anchor
         //let textAnchor = $(`#${id} > div.card-body > h3 > a`);     
